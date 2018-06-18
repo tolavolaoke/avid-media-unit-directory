@@ -1,4 +1,4 @@
-body {
+/* body {
     font-family: Arial;
 }
 
@@ -13,4 +13,30 @@ body {
 .search_box input{
     width: 10%;
 }
+ */
+ body {
+ font-family:'Roboto';
+}
 
+ iframe{
+    opacity: 1; 
+    position: static; 
+    z-index: 1; 
+    top: 0px; 
+    height: 400px; 
+    width: 700px !important;
+    /* scrolling"no" 
+    frameborder="0" marginheight: 0; marginwidth="0" */
+ }
+ 
+ input{
+     height: 40px;
+     width: 900px;
+     margin-bottom: 5%;
+
+ }
+
+ button{
+     height: 40px;
+     width:70px;
+ }
